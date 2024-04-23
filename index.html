@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Product preview card component</title>
 </head>
@@ -15,9 +15,9 @@
     <div class="card">
       <div class="product-image">
         <picture>
-          <source srcset="images/image-product-mobile.jpg" media="(max-width: 600px)">
-          <source srcset="images/image-product-desktop.jpg">
-          <img src="images/image-product-desktop.jpg" alt="perfume">
+          <source srcset="assets/images/image-product-mobile.jpg" media="(max-width: 600px)">
+          <source srcset="assets/images/image-product-desktop.jpg">
+          <img src="assets/images/image-product-desktop.jpg" alt="perfume">
         </picture>
       </div>
       <div class="product-card">
@@ -31,9 +31,13 @@
         </div>
         <div class="btn-wrapper">
           <div class="cart-btn-wrapper">
-            <img src="images/icon-cart.svg" alt="Add to Cart">
-            <div class="cart-btn">
-              Add to Cart
+            <div class="btn-wrapper-center">
+              <div class="icon-wrapper">
+                <img src="assets/images/icon-cart.svg" alt="Add to Cart">
+              </div>
+              <div class="cart-btn">
+                Add to Cart
+              </div>
             </div>
           </div>
         </div>
