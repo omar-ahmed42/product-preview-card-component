@@ -33,8 +33,10 @@ html, body {
 .card {
     display: flex;
     margin: auto;
+    flex-direction: row;
 
-    width: 700px;
+    width: 650px;
+    height: 450px;
     background-color: hsl(0, 0%, 100%);
 
     border-radius: 10px;
@@ -42,9 +44,7 @@ html, body {
 }
 
 .product-image {
-    height: 100%;
     width: 100%;
-    flex: 50%;
 }
 
 .product-image picture {
@@ -58,13 +58,12 @@ html, body {
 }
 
 .product-card {
-    flex: 50%;
     display: flex;
     flex-direction: column;
 
     width: calc(100% - 80px);
     height: calc(100% - 80px);
-    margin: 40px;
+    margin: auto auto auto 40px;
 }
 
 .category {
@@ -85,7 +84,7 @@ html, body {
     font-weight: 700;
     font-size: 36px;
 
-    padding-right: 25%;
+    padding-right: 15px;
 
     margin-bottom: 15px;
     color: black;
@@ -96,8 +95,8 @@ html, body {
     font-weight: 500;
     font-size: 14px;
 
-    padding-right: 25%;
-    margin-bottom: 15px;
+    padding-right: 40px;
+    margin-bottom: 20px;
     
     line-height: 20px;
     word-spacing: 2px;
@@ -120,6 +119,7 @@ html, body {
 }
 
 .original-price {
+    padding-left: 15px;
     text-decoration: line-through;
     font-family: 'Fraunces', Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -139,13 +139,10 @@ html, body {
 .cart-btn-wrapper {
     display: flex;
  
-    width: 75%;
+    width: 85%;
     height: 50px;
 
-    margin: 0 auto;
-
     border-radius: 10px;
-    /* background-color: rgba(9, 95, 48, 0.719); */
     background-color: rgba(13, 100, 51, 0.774);
 }
 
